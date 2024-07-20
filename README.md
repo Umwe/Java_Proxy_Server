@@ -11,3 +11,11 @@ Copy code
     <artifactId>geoip2</artifactId>
     <version>2.15.0</version>
 </dependency>
+
+
+## Configure GeoIP2 Database
+Download the GeoLite2 City database from MaxMind and place it in your resources directory.
+
+4. Implement the Proxy Logic
+Application Properties
+Configure the URL of your actual Spring Boot application in application.properties:
