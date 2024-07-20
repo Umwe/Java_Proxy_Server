@@ -30,3 +30,12 @@ Make sure to add the geolite2.db.location property to your application.propertie
 properties
 Copy code
 geolite2.db.location=GeoLite2-City.mmdb
+
+
+
+
+## Running the Proxy Server
+Run the Spring Boot application. It will act as a proxy server, validating requests based on geographical location before forwarding them to the target URL.
+
+Conclusion
+This setup creates a proxy server using Spring Boot that can validate requests based on geographical location using the GeoIP2 library and then forward them to your actual Spring Boot application. This approach allows you to leverage the full power of Spring Boot for request validation and proxying logic.
