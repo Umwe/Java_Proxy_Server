@@ -19,3 +19,14 @@ Download the GeoLite2 City database from MaxMind and place it in your resources 
 4. Implement the Proxy Logic
 Application Properties
 Configure the URL of your actual Spring Boot application in application.properties:
+
+
+proxy.target.url=http://localhost:8080
+
+
+## Application Properties Update
+Make sure to add the geolite2.db.location property to your application.properties:
+
+properties
+Copy code
+geolite2.db.location=GeoLite2-City.mmdb
